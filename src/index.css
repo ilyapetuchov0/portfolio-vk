@@ -1,13 +1,27 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .borderTop {
+    @apply border-t-[1px] border-t-designColor;
+  }
+  
+  .borderBottom {
+    @apply border-b-[1px] border-b-designColor;
+  }
+
+  .borderRight {
+    @apply border-r-[1px] border-r-designColor;
+  }
+
+  .borderLeft {
+    @apply border-l-[1px] border-l-designColor;
+  }
+
+  .borderAll {
+    @apply border-[1px] border-designColor;
+  }
 }
