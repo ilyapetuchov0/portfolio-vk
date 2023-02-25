@@ -5,7 +5,7 @@ import {FaVk, FaEnvelope, FaPaperPlane, FaGithub} from "react-icons/fa";
 
 const Left = () => {
   return (
-    <div className="w-5/12 h-full bg-bodyColor rounded-2xl">
+    <div className="w-5/12 h-full bg-bodyColor rounded-2xl shadow-testShadow z-10">
         <div className="w-full h-3/5">
             <img className="w-full h-full object-cover rounded-2xl" src={avatarImg} alt="Avatat img" loading="priority" />
         </div>
@@ -23,10 +23,10 @@ const Left = () => {
             {/* Делаем кнопочки */}
             <div className="flex h-14">
                 <a className="w-1/2 text-xl tracking-wide hover:text-designColor duration-300" href="#" target="_blank" rel="noreferrer">
-                    <span className="w-full h-full flex justify-center items-center gap-3 borderLeft"><FaPaperPlane />Связаться </span>
+                    <span className="w-full h-full flex justify-center items-center gap-3 borderTop"><FaPaperPlane />Связаться </span>
                 </a>
                 <a className="w-1/2 text-xl tracking-wide hover:text-designColor duration-300" href="#" target="_blank" rel="noreferrer">
-                    <span className="w-full h-full flex justify-center items-center gap-3"><FaEnvelope />Написать </span>
+                    <span className="w-full h-full flex justify-center items-center gap-3 borderTop"><FaEnvelope />Написать </span>
                 </a>
             </div>
         </div>
