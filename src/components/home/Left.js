@@ -15,17 +15,17 @@ const Left = () => {
                 <h1 className="text-textColor text-4xl font-semibold">Илья Петухов</h1>
                 <p className="text-base text-designColor tracking-wide">Фронтенд-разработчик</p>
                 <div className="flex justify-center gap-2 mt-2">
-                    <span className="hover:text-designColor duration-300 cursor-pointer text-xl mr-1"><FaGithub /></span>
-                    <span className="hover:text-designColor duration-300 cursor-pointer text-xl mr-1"><FaVk /></span>
-                    <span className="hover:text-designColor duration-300 cursor-pointer text-xl mr-1"><FaEnvelope /></span>
+                    <a href="https://github.com/ilyapetuchov0" target="_blank" className="hover:text-designColor duration-300 cursor-pointer text-xl mr-1"><FaGithub /></a>
+                    <a href="https://vk.com/ilyapetukhov01" target="_blank" className="hover:text-designColor duration-300 cursor-pointer text-xl mr-1"><FaVk /></a>
+                    <a href="mailto:ilyapetuchov0@gmail.com" target="_blank" className="hover:text-designColor duration-300 cursor-pointer text-xl mr-1"><FaEnvelope /></a>
                 </div>
             </div>
             {/* Делаем кнопочки */}
             <div className="flex h-14">
-                <a className="w-1/2 text-xl tracking-wide hover:text-designColor duration-300" href="#" target="_blank" rel="noreferrer">
+                <a className="w-1/2 text-xl tracking-wide hover:text-designColor duration-300" href="https://t.me/kiberking134" target="_blank" rel="noreferrer">
                     <span className="w-full h-full flex justify-center items-center gap-3 borderTop"><FaPaperPlane />Связаться </span>
                 </a>
-                <a className="w-1/2 text-xl tracking-wide hover:text-designColor duration-300" href="#" target="_blank" rel="noreferrer">
+                <a className="w-1/2 text-xl tracking-wide hover:text-designColor duration-300" href="mailto:ilyapetuchov0@gmail.com" target="_blank" rel="noreferrer">
                     <span className="w-full h-full flex justify-center items-center gap-3 borderTop"><FaEnvelope />Написать </span>
                 </a>
             </div>

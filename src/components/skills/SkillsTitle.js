@@ -1,5 +1,4 @@
 import React from 'react'
-import { GiGraduateCap } from 'react-icons/gi'
 
 const SkillsTitle = ({title, icon}) => {
   return (

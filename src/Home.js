@@ -46,14 +46,14 @@ const Home = () => {
             <span onClick={() => 
               setAbout(false) &
               setSkills(false) &
-              setProjects(true) &
-              setCompetitions(false)}
+              setProjects(false) &
+              setCompetitions(true)}
               className="w-full h-6 text-textColor text-xl flex items-center justify-center hover:text-designColor duration-300 cursor-pointer relative group"><BsFillCalendarEventFill /><span className="absolute text-black font-medium text-sm bg-designColor px-2 py-[3px] rounded-xl left-0 translate-x-8 group-hover:translate-x-12 transition-all duration-300 z-20 opacity-0 group-hover:opacity-100">Конкурсы</span></span>
             <span onClick={() => 
               setAbout(false) &
               setSkills(false) &
-              setProjects(false) &
-              setCompetitions(true)}
+              setProjects(true) &
+              setCompetitions(false)}
               className="w-full h-6 text-textColor text-xl flex items-center justify-center hover:text-designColor duration-300 cursor-pointer relative group"><AiFillProject /><span className="absolute text-black font-medium text-sm bg-designColor px-2 py-[3px] rounded-xl left-0 translate-x-8 group-hover:translate-x-12 transition-all duration-300 z-20 opacity-0 group-hover:opacity-100">Работы</span></span>
           </div>
         </div>
