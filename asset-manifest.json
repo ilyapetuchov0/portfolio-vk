@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a2a158b2.css",
+    "main.js": "/static/js/main.00bba45e.js",
+    "static/media/asGroup.png": "/static/media/asGroup.d71a1f51b2d6a025a0fb.png",
+    "static/media/yStroyka.png": "/static/media/yStroyka.61390aabfc628376899b.png",
+    "static/media/avatar.jpg": "/static/media/avatar.ca24d9f1033a40fffae7.jpg",
+    "static/media/priemMetalla.png": "/static/media/priemMetalla.d8417e2b1e29328f7cc3.png",
+    "static/media/evrostroyPlus.png": "/static/media/evrostroyPlus.39b39331fa8614750851.png",
+    "static/media/profitpol.png": "/static/media/profitpol.42b9dbb752ee428ffad2.png",
+    "static/media/itRix.png": "/static/media/itRix.6735c8ca961d3a97fa3d.png",
+    "static/media/mobileApp.jpg": "/static/media/mobileApp.e195f0d762134b542db9.jpg",
+    "index.html": "/index.html",
+    "main.a2a158b2.css.map": "/static/css/main.a2a158b2.css.map",
+    "main.00bba45e.js.map": "/static/js/main.00bba45e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2a158b2.css",
+    "static/js/main.00bba45e.js"
+  ]
+}
