@@ -6,11 +6,11 @@ import Left from './components/home/Left'
 import { FaUserAlt } from 'react-icons/fa'
 import { AiFillCompass, AiFillProject } from 'react-icons/ai'
 import { BsFillCalendarEventFill } from 'react-icons/bs'
+import { MdOutlineClose } from 'react-icons/md'
 import About from './components/about/About'
 import Skills from './components/skills/Skills'
 import Competitions from './components/competitions/Competitions'
 import Projects from './components/projects/Projects'
-
 const Home = () => {
 
   const [about, setAbout] = useState(true);
@@ -21,14 +21,6 @@ const Home = () => {
   return (
     <div className="w-[85%] h-[85%] bg-transparent text-white z-50 flex items-start justify-between">
         <div className="w-16 h-96 bg-transparent flex flex-col gap-4">
-          <div className="w-full h-20 bg-bodyColor rounded-3xl flex justify-center items-center cursor-pointer group">
-            {/* Иконка для боковой панели */}
-            <div className="flex flex-col gap-1.5 overflow-hidden">
-              <span className="w-8 h-[2px] bg-textColor inline-block -translate-x-2 group-hover:translate-x-0 transition-transform duration-300 group-hover:bg-designColor"></span>
-              <span className="w-8 h-[2px] bg-textColor inline-block group-hover:bg-designColor duration-300"></span>
-              <span className="w-8 h-[2px] bg-textColor inline-block -translate-x-3.5 group-hover:translate-x-0 transition-transform duration-300 group-hover:bg-designColor"></span>
-            </div>
-          </div>
           {/* Другие иконки */}
           <div className="w-full h-80 bg-bodyColor rounded-3xl py-6 flex flex-col items-center justify-between">
             <span onClick={() => 
