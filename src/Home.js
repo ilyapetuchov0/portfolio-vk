@@ -5,6 +5,7 @@ import { FaUserAlt } from 'react-icons/fa'
 import { AiFillCompass, AiFillProject } from 'react-icons/ai'
 import { BsFillCalendarEventFill } from 'react-icons/bs'
 import About from './components/about/About'
+import Skills from './components/skills/Skills'
 
 const Home = () => {
   return (
@@ -32,7 +33,8 @@ const Home = () => {
             {/* Делаем правую часть */}
             <div className="w-8/12 h-[95%] bg-bodyColor">
               <div className="w-full h-[96%] overflow-y-scroll scrollbar-thin scrollbar-thumb-[#646464]">
-                <About />
+                {/* <About /> */}
+                <Skills />
               </div>
             </div>
         </div>
